@@ -1,0 +1,91 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    @import "variables";
+
+    body{
+        background-image: url("../img/fondo.jfif"); background-position: center;
+  
+
+        nav{ background-color: rgb(183, 172, 143);
+        }
+
+
+    }
+
+
+  
+   .titulo{ color: rgb(2, 2, 2);
+    text-align: center;
+   font-family: fantasy;}
+   
+
+
+.cajaLateral{
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 0;
+    background-color: rgb(186, 186, 180);  
+    border-style: outset;
+
+      img{text-align: auto; 
+        border-style: solid;
+        border-color: black;
+        
+        
+       
+
+      }
+  
+   
+   
+}
+
+
+.subCaja{ 
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.separacion{
+    border-top-style: ridge;
+padding-top: 20px;
+margin-top: 20px;
+border-color: rgb(188, 189, 186);
+}
+
+.separacion2{
+     border-bottom-style: ridge;
+     padding-bottom: 10px;
+     margin-bottom: 20px;
+     border-color: rgb(188, 189, 186);
+
+}
+
+.ajuste{ padding-right: 100px;
+    margin: 20px auto;
+height: 100%;
+}
+
+.piePagina{ 
+    background-color: rgb(183, 172, 143);
+
+}
+
+
+.infoResaltada{ 
+        color: red;
+    text-decoration: underline;
+font-family: fantasy;
+    text-align: center;}
