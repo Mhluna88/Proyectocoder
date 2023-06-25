@@ -6,6 +6,7 @@
 
 .colorBarra{ background-color: goldenrod;
    }
+  
    .titulo{ color: black;
     text-align: center;
    font-family: fantasy;}
@@ -32,4 +33,11 @@ body{
     margin: 20px auto;
 height: 100%;
 }
-    
+    .infoResaltada{ 
+        color: red;
+    text-decoration: underline;
+text-align: center;}
+
+.hoshidoTexto{color: azure;
+text-decoration: underline;
+ font-family: fantasy;}
